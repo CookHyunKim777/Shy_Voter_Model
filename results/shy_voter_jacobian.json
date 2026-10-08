@@ -1,0 +1,40 @@
+{
+  "stage1": {
+    "structResidual": "0",
+    "structOK": true,
+    "JTfp": "{{Ps, Pp}, {(Ms + Phi*Ps)/(1 - Psi), (Mp + Phi*Pp)/(1 - Psi)}}",
+    "detIJabstract": "(-1 + Mp + Ms*Pp + Phi*Pp + Ps - Mp*Ps + Psi - Ps*Psi)/(-1 + Psi)"
+  },
+  "stage2": {
+    "modelResidual": "0",
+    "modelOK": true,
+    "J12atPhi0": "0",
+    "J21atPhi0": "0",
+    "J12nonzeroGeneral": "True",
+    "J21nonzeroGeneral": "True"
+  },
+  "stage3": {
+    "J11": "(7*(-1 + Ph + Pv)*(-5 + 65*Qh0 - 405*Qh0^2 + 1385*Qh0^3 - 2855*Qh0^4 + 3531*Qh0^5 - 2431*Qh0^6 + 715*Qh0^7))/16",
+    "J22": "(7*(-1 + Ph)*(-1 + Qh0)*(5 + 45*Qh0^2 - 120*Qh0^3 + 255*Qh0^4 - 264*Qh0^5 + 143*Qh0^6))/16",
+    "J12": "0",
+    "J21": "0",
+    "detIJsym": "((19 - 35*Qh0 + 315*Qh0^2 - 1155*Qh0^3 + 2625*Qh0^4 - 3633*Qh0^5 + 2849*Qh0^6 - 1001*Qh0^7 + 7*Ph*(-5 + 5*Qh0 - 45*Qh0^2 + 165*Qh0^3 - 375*Qh0^4 + 519*Qh0^5 - 407*Qh0^6 + 143*Qh0^7))*(19 - 455*Qh0 + 2835*Qh0^2 - 9695*Qh0^3 + 19985*Qh0^4 - 24717*Qh0^5 + 17017*Qh0^6 - 5005*Qh0^7 + 7*Ph*(-5 + 65*Qh0 - 405*Qh0^2 + 1385*Qh0^3 - 2855*Qh0^4 + 3531*Qh0^5 - 2431*Qh0^6 + 715*Qh0^7) + 7*Pv*(-5 + 65*Qh0 - 405*Qh0^2 + 1385*Qh0^3 - 2855*Qh0^4 + 3531*Qh0^5 - 2431*Qh0^6 + 715*Qh0^7)))/256",
+    "J22Predicted": "1 - ((-1 + Qh0)*(19 - 35*Qh0 + 315*Qh0^2 - 1155*Qh0^3 + 2625*Qh0^4 - 3633*Qh0^5 + 2849*Qh0^6 - 1001*Qh0^7 + 7*Ph*(-5 + 5*Qh0 - 45*Qh0^2 + 165*Qh0^3 - 375*Qh0^4 + 519*Qh0^5 - 407*Qh0^6 + 143*Qh0^7)))/(16*(1 - Qh0))",
+    "J22Diff": "0",
+    "detIJsymPredicted": "((-1 + Qh0)*(19 - 35*Qh0 + 315*Qh0^2 - 1155*Qh0^3 + 2625*Qh0^4 - 3633*Qh0^5 + 2849*Qh0^6 - 1001*Qh0^7 + 7*Ph*(-5 + 5*Qh0 - 45*Qh0^2 + 165*Qh0^3 - 375*Qh0^4 + 519*Qh0^5 - 407*Qh0^6 + 143*Qh0^7))*(1 - (7*(-1 + Ph + Pv)*(-5 + 65*Qh0 - 405*Qh0^2 + 1385*Qh0^3 - 2855*Qh0^4 + 3531*Qh0^5 - 2431*Qh0^6 + 715*Qh0^7))/16))/(16*(1 - Qh0))",
+    "detIJsymDiff": "0"
+  },
+  "stage4": {
+    "lyapResidual": "{{0, 0}, {0, 0}}",
+    "V22Leading": "(a21^2*q1 + a11^2*q2)/(2*(a11 + a22)*(-(a12*a21) + a11*a22))",
+    "leadingDiff": "0",
+    "V22Sym": "(a11*q2)/(2*a22*(a11 + a22))",
+    "V22SymResidue": "q2/2",
+    "V22ContLeading": "8/((-1 + Qh0)*(19 - 35*Qh0 + 315*Qh0^2 - 1155*Qh0^3 + 2625*Qh0^4 - 3633*Qh0^5 + 2849*Qh0^6 - 1001*Qh0^7 + 7*Ph*(-5 + 5*Qh0 - 45*Qh0^2 + 165*Qh0^3 - 375*Qh0^4 + 519*Qh0^5 - 407*Qh0^6 + 143*Qh0^7)))",
+    "contDiff": "0",
+    "amplitude": "(a11^2*(-1 + Fi^2) - a21^2*(-1 + Qh)^2*Qh)/(2*(a11 + a22)*(-1 + Qh))",
+    "chiGen": "(-(dhP*(Fi + Ms)) + dhM*(-1 + Ps))/(-1 + Mp + Fi*Pp + Ms*Pp + Ps - Mp*Ps + Qh - Ps*Qh)",
+    "chiDiff": "0",
+    "chiSymDiff": "0"
+  }
+}

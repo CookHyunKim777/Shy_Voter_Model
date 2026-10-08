@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Shy voter model: mean-field expansion, transition-line solver, and linear-response code"
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: Kim
+    given-names: Cook Hyun
+    affiliation: "Korea Institute of Energy Technology"
+  - family-names: Park
+    given-names: Sangjoon
+    affiliation: "Korea Institute of Energy Technology"
+  - family-names: Kahng
+    given-names: B.
+    affiliation: "Korea Institute of Energy Technology"
+preferred-citation:
+  type: article
+  title: "A Shy Voter Model: Entropy Effect on Opinion Formation"
+  authors:
+    - family-names: Kim
+      given-names: Cook Hyun
+    - family-names: Park
+      given-names: Sangjoon
+    - family-names: Kahng
+      given-names: B.
+  year: 2026
